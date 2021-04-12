@@ -16,3 +16,37 @@ UptimeRobot dashboard Home Assistant Dwains Dashboard
        path: 'dwains-dashboard/addons/more_page/uptime/page.yaml'
 ```
 - Reload the theme configuration via Theme Settings
+
+### Change code
+ ```yaml
+            - type: 'custom:uptime-card'
+              entity: binary_sensor. # <-vul de sensor aan
+              icon: 'fas:safari'
+              name: cloud.....nl
+              hours_to_show: 72
+              status_adaptive_color: true
+              average_text: '% uptime'
+              alias:
+                ok: Online
+                ko: Offline
+              color:
+                icon: white
+                ok: '#45C669'
+                ko: '#C6B145'
+                half: '#C66445'
+                none: '#C9C9C9'
+                title: white
+              show:
+                header: true
+                title: true
+                icon: true
+                footer: true
+                status: true
+                timeline: true
+                average: true
+              tooltip:
+                animation: true
+              #tap_action:
+                #action: url
+                #url: 'https://'
+```
