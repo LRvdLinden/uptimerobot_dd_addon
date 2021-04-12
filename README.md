@@ -7,13 +7,13 @@ UptimeRobot dashboard Home Assistant Dwains Dashboard
 
 ### Make Home Assistant intergration 
 - Make the intergration with [UptimeRobot in Home Assistant](https://www.home-assistant.io/integrations/uptimerobot/)
-- Restart Home Assistant
  ```yaml
      # Example configuration.yaml entry
      binary_sensor:
        - platform: uptimerobot
          api_key: YOUR_API_KEY
 ```
+- Restart Home Assistant
 
 ### Installation Add-on
 - Copy the `uptimerobot` folder in `dwains-dashboard/addons/more_page/` directory.
