@@ -2,18 +2,18 @@
 UptimeRobot dashboard Home Assistant Dwains Dashboard
 
 ### Prerequisite
-- Make a free [UptimeRobot](https://uptimerobot.com/) account and config what you whant to monitor 
+- Make a free [UptimeRobot](https://uptimerobot.com/) account and config what you want to monitor 
 - Make sure you have installed the lovelace [uptime-card](https://github.com/dylandoamaral/uptime-card) and [fontawesome icons](https://github.com/thomasloven/hass-fontawesome)
-- Make the intergration with [UptimeRobot in Home Assistant](https://www.home-assistant.io/integrations/uptimerobot/)
-- Restart Home Assistant
 
 ### Installation Add-on
-- Copy the `page.yaml` file in to a new created folder in `dwains-dashboard/addons/more_page/uptime` directory.
+- Make the intergration with [UptimeRobot in Home Assistant](https://www.home-assistant.io/integrations/uptimerobot/)
+- Restart Home Assistant
+- Copy the `uptimerobot` folder in `dwains-dashboard/addons/more_page/` directory.
 - Open your `more_page.yaml` file in `dwains-dashboard/configs` and add the following;
  ```yaml
      - name: UptimeRobot
        icon: fas:cloud-upload-alt
-       path: 'dwains-dashboard/addons/more_page/uptime/page.yaml'
+       path: 'dwains-dashboard/addons/more_page/uptimerobot/page.yaml'
 ```
 - Reload the theme configuration via Theme Settings
 
@@ -55,3 +55,4 @@ UptimeRobot dashboard Home Assistant Dwains Dashboard
 - add the `icon:` that you want to have
 - when you want to use the `tap-action` function, delete `#` and fill in the `url: 'https/'` to the function
 - when you want to monitor shorter or longer then 3 days, change the value `hours_to_show:`
+- copy the above string as muth as you need foor each `binary_sensor`
