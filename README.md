@@ -2,7 +2,7 @@
 UptimeRobot dashboard Home Assistant Dwains Dashboard
 
 ### Prerequisite
-- Make a free UptimeRobot account and config what you whant to monitor (https://uptimerobot.com/) 
+- Make a free [UptimeRobot](https://uptimerobot.com/) account and config what you whant to monitor 
 - Make sure you have installed the HACS fronted uptime-card (https://github.com/dylandoamaral/uptime-card)
 - Make the intergration with UptimeRobot in Home Assistant (https://www.home-assistant.io/integrations/uptimerobot/)
 
