@@ -17,7 +17,8 @@ UptimeRobot dashboard Home Assistant Dwains Dashboard
 
 
 ### Installation Add-on
-- Copy the `uptimerobot` folder in `dwains-dashboard/addons/more_page/` directory.
+- Copy the `uptimerobot` ![uptimerobot](https://user-images.githubusercontent.com/77990847/114383489-e59e8f80-9b8d-11eb-838f-a3caa9539f61.png)
+folder in to the `dwains-dashboard/addons/more_page` directory.
 - Open your `more_page.yaml` file in `dwains-dashboard/configs` and add the following;
  ```yaml
      - name: UptimeRobot
@@ -65,3 +66,5 @@ UptimeRobot dashboard Home Assistant Dwains Dashboard
 - when you want to use the `tap-action` function, delete `#` and fill in the `url: 'https/'` to the function
 - when you want to monitor shorter or longer then 3 days, change the value `hours_to_show:`
 - copy the above string as muth as you need for each `binary_sensor`
+
+### Result;
