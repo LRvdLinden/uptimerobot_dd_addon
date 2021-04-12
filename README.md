@@ -1,4 +1,4 @@
-# UptimeRobot Add-on (more_page)
+# UptimeRobot Dwains Dashboard Add-on (more_page)
 UptimeRobot dashboard Home Assistant Dwains Dashboard
 ![uptimerobot](https://scontent-ams4-1.xx.fbcdn.net/v/t1.6435-9/106796232_3593546114008659_9051489899601087280_n.png?_nc_cat=100&ccb=1-3&_nc_sid=e3f864&_nc_ohc=sN22nqAP2UIAX9HMuUx&_nc_ht=scontent-ams4-1.xx&oh=940a10cdf67cb438814c35f67c82dd23&oe=6096E7BB)
 
