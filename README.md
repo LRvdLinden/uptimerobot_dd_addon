@@ -17,7 +17,7 @@ UptimeRobot dashboard Home Assistant Dwains Dashboard
 ```
 - Reload the theme configuration via Theme Settings
 
-### Change code
+### Replace the following;
  ```yaml
      - type: 'custom:uptime-card'
        entity: binary_sensor. # <-vul de sensor aan
@@ -50,3 +50,7 @@ UptimeRobot dashboard Home Assistant Dwains Dashboard
             #action: url
             #url: 'https://'
 ```
+- add the correct `binary_sensor` to monitor
+- fill in the correct `name:`
+- add the `icon:` that you want to have
+- when you want to use the `tap-action` function, delete `#` and fill in the `url: 'https/'` to the function
