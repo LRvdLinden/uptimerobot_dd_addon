@@ -3,19 +3,16 @@ UptimeRobot dashboard Home Assistant Dwains Dashboard
 
 ### Prerequisite
 - Make a free [UptimeRobot](https://uptimerobot.com/) account and config what you whant to monitor 
-- Make sure you have installed the lovelace [uptime-card](https://github.com/dylandoamaral/uptime-card) 
+- Make sure you have installed the lovelace [uptime-card](https://github.com/dylandoamaral/uptime-card) and [fontawesome icons](https://github.com/thomasloven/hass-fontawesome)
 - Make the intergration with [UptimeRobot in Home Assistant](https://www.home-assistant.io/integrations/uptimerobot/)
+- Restart Home Assistant
 
-### Installation
-- Add the [F1 2021 Calendar by Racefans](https://www.racefans.net/contact/f1-fanatic-calendar/) to your Google Calendar
-- If you don't have the [Google Calendar Event](https://www.home-assistant.io/integrations/calendar.google/) integration setup yet, make sure to do so. If you already have, please ignore this step.
-- Restart home-assistant and open `google_calendars.yaml`, this file should be in the root folder (this is also where your configuration.yaml and secrets.yaml should be located)
-- Find the calendar with device id `formula_1_calendar_by_racefans_net`, it should look like this;
-```yaml
-- cal_id: ekqk1nbdusr1baon1ic42oeeik@group.calendar.google.com
-  entities:
-  - device_id: formula_1_calendar_by_racefans_net
-    ignore_availability: true
-    name: Formula 1 calendar by RaceFans.net
-    track: true
-``` 
+### Installation Add-on
+- Copy the `page.yaml` file in to a new created folder in `dwains-dashboard/addons/more_page/uptime` directory.
+- Open your `more_page.yaml` file in `dwains-dashboard/configs` and add the following;
+ ```yaml
+     - name: UptimeRobot
+       icon: fas:cloud-upload-alt
+       path: 'dwains-dashboard/addons/more_page/uptime/page.yaml'
+```
+- Reload the theme configuration via Theme Settings
