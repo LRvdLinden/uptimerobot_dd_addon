@@ -17,6 +17,7 @@ UptimeRobot dashboard Home Assistant Dwains Dashboard
        - platform: uptimerobot
          api_key: YOUR_API_KEY
 ```
+- Restart Home Assistant
 
 ### Installation Add-on
 - Copy the `uptimerobot` folder in to the `dwains-dashboard/addons/more_page` directory.
