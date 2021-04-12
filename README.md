@@ -1,5 +1,5 @@
 # UptimeRobot Dwains Dashboard Add-on (more_page)
-UptimeRobot dashboard Home Assistant Dwains Dashboard
+UptimeRobot monitoring in Home Assistant Dwains Dashboard
 ##### Created by Léon van der Linden
 ##### v1.0.0
 
