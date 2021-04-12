@@ -3,8 +3,8 @@ UptimeRobot dashboard Home Assistant Dwains Dashboard
 
 ### Prerequisite
 - Make a free [UptimeRobot](https://uptimerobot.com/) account and config what you whant to monitor 
-- Make sure you have installed the HACS fronted uptime-card (https://github.com/dylandoamaral/uptime-card)
-- Make the intergration with UptimeRobot in Home Assistant (https://www.home-assistant.io/integrations/uptimerobot/)
+- Make sure you have installed the lovelace [uptime-card](https://github.com/dylandoamaral/uptime-card) 
+- Make the intergration with [UptimeRobot in Home Assistant](https://www.home-assistant.io/integrations/uptimerobot/)
 
 ### Installation
 - Add the [F1 2021 Calendar by Racefans](https://www.racefans.net/contact/f1-fanatic-calendar/) to your Google Calendar
