@@ -7,7 +7,7 @@ UptimeRobot monitoring in Home Assistant Dwains Dashboard
 
 ### Prerequisite
 - Make a free [UptimeRobot](https://uptimerobot.com/) account and config what you want to monitor 
-- Make sure you have installed the lovelace [uptime-card](https://github.com/dylandoamaral/uptime-card) and [fontawesome icons](https://github.com/thomasloven/hass-fontawesome)
+- Make sure you have installed the lovelace [uptime-card](https://github.com/dylandoamaral/uptime-card) and [fontawesome icons](https://github.com/thomasloven/hass-fontawesome). This can be done manually or directly via hacs
 
 ### Make Home Assistant intergration 
 - Make the intergration with [UptimeRobot in Home Assistant](https://www.home-assistant.io/integrations/uptimerobot/)
@@ -25,6 +25,7 @@ UptimeRobot monitoring in Home Assistant Dwains Dashboard
 - Open your `more_page.yaml` file in `dwains-dashboard/configs` and add the following;
  ```yaml
      - name: UptimeRobot
+       main_menu: 'true' #Show this addon in the main navigation bar!
        icon: fas:cloud-upload-alt
        path: 'dwains-dashboard/addons/more_page/uptimerobot/page.yaml'
 ```
