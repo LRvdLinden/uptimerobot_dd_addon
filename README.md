@@ -54,3 +54,4 @@ UptimeRobot dashboard Home Assistant Dwains Dashboard
 - fill in the correct `name:`
 - add the `icon:` that you want to have
 - when you want to use the `tap-action` function, delete `#` and fill in the `url: 'https/'` to the function
+- when you want to monitor shorter or longer then 3 days, change the value `hours_to_show:`
