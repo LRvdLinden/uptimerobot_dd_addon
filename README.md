@@ -13,6 +13,9 @@
     <a href="https://github.com/LRvdLinden/uptimerobot_dd_addon">
     <img src="https://img.shields.io/github/downloads/LRvdLinden/uptimerobot_dd_addon/latest/total?color=purple&label=%20release%20Downloads" />
   </a>
+    <a href="https://github.com/LRvdLinden/">
+    <img src="https://img.shields.io/github/followers/LRvdLinden?style=social" />
+  </a>
 </p>
 </p>
 
