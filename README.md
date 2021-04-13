@@ -12,11 +12,14 @@
   </a>
     <a href="https://github.com/LRvdLinden/uptimerobot_dd_addon">
     <img src="https://img.shields.io/github/downloads/LRvdLinden/uptimerobot_dd_addon/latest/total?color=purple&label=%20release%20Downloads" />
-  </a>
+        </a>
+    </a>
     <a href="https://github.com/LRvdLinden/">
     <img src="https://img.shields.io/github/followers/LRvdLinden?style=social" />
-  </a>
-</p>
+    </a>
+    <a href="https://discord.gg/7yt64uX">
+    <img src="https://img.shields.io/discord/688401603811999885" />
+</a>
 </p>
 
 <p align="center">Created by <a href="https://github.com/LRvdLinden">Léon van der Linden</a> based on <a href="https://github.com/dylandoamaral/uptime-card">uptime-card</a> created by <a href="https://github.com/dylandoamaral/uptime-card">Dylandoamaral</a>
