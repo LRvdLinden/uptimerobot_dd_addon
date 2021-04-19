@@ -90,7 +90,7 @@
           animation: true
        #tap_action:
           #action: url
-          #url: 'https://'
+          #url_path: 'https://'
 ```
 - add the correct `binary_sensor` to monitor
 - fill in the correct `name:`
