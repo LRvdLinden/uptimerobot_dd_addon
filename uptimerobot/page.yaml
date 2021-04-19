@@ -82,7 +82,7 @@
                 animation: true
               tap_action:
                 action: url
-                url: 'http://'
+                url_path: 'http://'
             - type: 'custom:uptime-card'
               entity: binary_sensor.#<- fill in the right sensor
               icon: 'fas:server'
@@ -116,7 +116,7 @@
                 animation: true
               tap_action:
                 action: url
-                url: 'http://'
+                url_path: 'http://'
             - type: 'custom:uptime-card'
               entity: binary_sensor.#<- fill in the right sensor
               icon: 'fab:safari'
@@ -150,7 +150,7 @@
                 animation: true
               tap_action:
                 action: url
-                url: 'https://'
+                url_path: 'https://'
             - type: 'custom:uptime-card'
               entity: binary_sensor.#<- fill in the right sensor
               icon: 'fab:safari'
@@ -184,7 +184,7 @@
                 animation: true
               tap_action:
                 action: url
-                url: 'https://'
+                url_path: 'https://'
             - type: 'custom:uptime-card'
               entity: binary_sensor.#<- fill in the right sensor
               icon: 'mdi:google'
@@ -218,4 +218,4 @@
                 animation: true
               tap_action:
                 action: url
-                url: 'https://www.google.com/'
+                url_path: 'https://www.google.com/'
