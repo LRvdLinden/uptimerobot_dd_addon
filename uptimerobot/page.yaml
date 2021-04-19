@@ -1,3 +1,8 @@
+# Dashboard based on Uptime Card and api UptimeRobot
+# Creator: LRvdLinden
+# Website: https://github.com/LRvdLinden
+# v.1.0.1
+
 - type: custom:dwains-flexbox-card
   items_classes: 'col-xs-12'
   cards: 
@@ -14,15 +19,19 @@
           items_classes: 'col-xs-12 col-md-12'
           cards:
             - type: 'custom:uptime-card'
-              entity: binary_sensor. # <-vul de sensor aan
-              icon: 'mdi:google'
-              name: Google DNS
+              entity: binary_sensor.tmo_thuis
+              icon: 'hass:home-assistant'
+              name: Home Assistant
               hours_to_show: 72
               status_adaptive_color: true
               average_text: '% uptime'
               alias:
                 ok: Up
                 ko: Down
+              blink:
+                effect: fade
+                target: card
+                speed: 1
               color:
                 icon: white
                 ok: '#45C669'
@@ -40,6 +49,207 @@
                 average: true
               tooltip:
                 animation: true
-              #tap_action:
-                #action: url
-                #url: 'https://'
+              tap_action:
+                action: url
+                url: 'https://www.t-mobile.nl/klantenservice/thuis/storing-en-onderhoud'
+            - type: 'custom:uptime-card'
+              entity: binary_sensor.home_assistant
+              icon: 'hass:home-assistant'
+              name: Home Assistant
+              hours_to_show: 72
+              status_adaptive_color: true
+              average_text: '% uptime'
+              alias:
+                ok: Up
+                ko: Down
+              blink:
+                effect: fade
+                target: card
+                speed: 1
+              color:
+                icon: white
+                ok: '#45C669'
+                ko: '#C6B145'
+                half: '#C66445'
+                none: '#C9C9C9'
+                title: white
+              show:
+                header: true
+                title: true
+                icon: true
+                footer: true
+                status: true
+                timeline: true
+                average: true
+              tooltip:
+                animation: true
+            - type: 'custom:uptime-card'
+              entity: binary_sensor.synology_dsm
+              icon: 'fas:server'
+              name: Synology DSM
+              hours_to_show: 72
+              status_adaptive_color: true
+              average_text: '% uptime'
+              alias:
+                ok: Up
+                ko: Down
+              blink:
+                effect: fade
+                target: card
+                speed: 1
+              color:
+                icon: white
+                ok: '#45C669'
+                ko: '#C6B145'
+                half: '#C66445'
+                none: '#C9C9C9'
+                title: white
+              show:
+                header: true
+                title: true
+                icon: true
+                footer: true
+                status: true
+                timeline: true
+                average: true
+              tooltip:
+                animation: true
+              tap_action:
+                action: url
+                url: 'http://QuickConnect.to/cloudvdlinden/'
+            - type: 'custom:uptime-card'
+              entity: binary_sensor.virtual_machine
+              icon: 'fas:server'
+              name: Virtual Machine
+              hours_to_show: 72
+              status_adaptive_color: true
+              average_text: '% uptime'
+              alias:
+                ok: Up
+                ko: Down
+              blink:
+                effect: fade
+                target: card
+                speed: 1
+              color:
+                icon: white
+                ok: '#45C669'
+                ko: '#C6B145'
+                half: '#C66445'
+                none: '#C9C9C9'
+                title: white
+              show:
+                header: true
+                title: true
+                icon: true
+                footer: true
+                status: true
+                timeline: true
+                average: true
+              tooltip:
+                animation: true
+              tap_action:
+                action: url
+                url: 'http://cloudvdlinden.quickconnect.to/?launchApp=SYNO.SDS.Virtualization.Application&SynoToken=ce3e.pah.5RIM/'
+            - type: 'custom:uptime-card'
+              entity: binary_sensor.cloudvdlinden_nl
+              icon: 'fab:safari'
+              name: cloudvdlinden.nl
+              hours_to_show: 72
+              status_adaptive_color: true
+              average_text: '% uptime'
+              alias:
+                ok: Online
+                ko: Offline
+              blink:
+                effect: fade
+                target: card
+                speed: 1
+              color:
+                icon: white
+                ok: '#45C669'
+                ko: '#C6B145'
+                half: '#C66445'
+                none: '#C9C9C9'
+                title: white
+              show:
+                header: true
+                title: true
+                icon: true
+                footer: true
+                status: true
+                timeline: true
+                average: true
+              tooltip:
+                animation: true
+              tap_action:
+                action: url
+                url: 'https://www.cloudvdlinden.nl/'
+            - type: 'custom:uptime-card'
+              entity: binary_sensor.homevdlinden_nl
+              icon: 'fab:safari'
+              name: homevdlinden.nl
+              hours_to_show: 72
+              status_adaptive_color: true
+              average_text: '% uptime'
+              alias:
+                ok: Online
+                ko: Offline
+              blink:
+                effect: fade
+                target: card
+                speed: 1
+              color:
+                icon: white
+                ok: '#45C669'
+                ko: '#C6B145'
+                half: '#C66445'
+                none: '#C9C9C9'
+                title: white
+              show:
+                header: true
+                title: true
+                icon: true
+                footer: true
+                status: true
+                timeline: true
+                average: true
+              tooltip:
+                animation: true
+              tap_action:
+                action: url
+                url: 'https://www.homevdlinden.nl/'
+            - type: 'custom:uptime-card'
+              entity: binary_sensor.ping_google_dns
+              icon: 'mdi:google'
+              name: Google DNS
+              hours_to_show: 72
+              status_adaptive_color: true
+              average_text: '% uptime'
+              alias:
+                ok: Up
+                ko: Down
+              blink:
+                effect: fade
+                target: card
+                speed: 1
+              color:
+                icon: white
+                ok: '#45C669'
+                ko: '#C6B145'
+                half: '#C66445'
+                none: '#C9C9C9'
+                title: white
+              show:
+                header: true
+                title: true
+                icon: true
+                footer: true
+                status: true
+                timeline: true
+                average: true
+              tooltip:
+                animation: true
+              tap_action:
+                action: url
+                url: 'https://www.google.com/'
