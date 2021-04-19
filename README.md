@@ -72,12 +72,12 @@
          target: card
          speed: 1
        color:
-         icon: white
+         icon: gray
          ok: '#45C669'
          ko: '#C6B145'
          half: '#C66445'
          none: '#C9C9C9'
-         title: white
+         title: gray
        show:
          header: true
          title: true
