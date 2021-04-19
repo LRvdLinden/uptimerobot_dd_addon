@@ -101,7 +101,7 @@
 - copy the above string if you need more cards for more `binary_sensor`
 
 ## Configuration ⚙️
-
+---
 Uptime card is highly customizable. See Github [Uptime Card](https://github.com/dylandoamaral/uptime-card) for all the options
 
 ## Result
