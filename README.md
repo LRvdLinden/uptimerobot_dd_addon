@@ -58,7 +58,7 @@
 ---
  ```yaml
      - type: 'custom:uptime-card'
-       entity: binary_sensor. # <-vul de sensor aan
+       entity: binary_sensor. #<- fill in the right sensor
        icon: 'fas:safari'
        name: cloud.....nl
        hours_to_show: 72
